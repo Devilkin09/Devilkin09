@@ -1,78 +1,159 @@
-<h1 align="center">Hi 👋, I'm Bilguun</h1>
-<h3 align="center">Software Developer | React & Mobile App Developer</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bilguun | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
----
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
 
-## 🚀 About Me
-- 🎓 Computer Science Student
-- 📱 Currently working on: **University Non-Educational Activities Mobile System**
-- 🌱 Learning: **Advanced React, Node.js, System Architecture**
-- 💡 Interested in: Mobile App Development & Web Systems
-- ⚡ Fun fact: I love building real-world systems that solve problems
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+        }
 
----
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
 
-## 🛠️ Tech Stack
+        header h3 {
+            font-weight: normal;
+            color: #38bdf8;
+        }
 
-### 💻 Frontend
-- HTML
-- CSS
-- JavaScript
-- React
-- React Native
+        section {
+            padding: 50px 10%;
+        }
 
-### ⚙️ Backend
-- Node.js
-- Express
-- PostgreSQL
-- Prisma
+        h2 {
+            color: #38bdf8;
+            border-bottom: 2px solid #38bdf8;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
 
-### 🧰 Tools
-- Git & GitHub
-- Docker
-- VS Code
-- Postman
+        ul {
+            line-height: 1.8;
+        }
 
----
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
 
-## 📱 Featured Projects
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
 
-### 🎓 University Non-Educational Activities Mobile System
-Mobile system for managing:
-- Scholarships
-- Art festivals
-- Student events
-- Activity calendar
+        .card:hover {
+            transform: translateY(-5px);
+            background: #334155;
+        }
 
-**Tech:** React Native, Node.js, PostgreSQL
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #1e293b;
+            margin-top: 40px;
+        }
 
----
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
 
-### 📅 School Calendar System
-Web-based calendar system for school activities.
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-**Tech:** React, Node.js, Docker, PostgreSQL
+<body>
 
----
+<header>
+    <h1>Hi 👋, I'm Bilguun</h1>
+    <h3>Software Developer | React & Mobile App Developer</h3>
+</header>
 
-### 🎮 2D Tank Game (Java)
-Simple 2D shooting game built with Java.
+<section>
+    <h2>🚀 About Me</h2>
+    <ul>
+        <li>🎓 Computer Science Student</li>
+        <li>📱 Currently working on: University Non-Educational Activities Mobile System</li>
+        <li>🌱 Learning: Advanced React, Node.js, System Architecture</li>
+        <li>💡 Interested in Mobile App Development & Web Systems</li>
+        <li>⚡ I love building real-world systems that solve problems</li>
+    </ul>
+</section>
 
-**Tech:** Java, OOP
+<section>
+    <h2>🛠️ Tech Stack</h2>
+    <div class="tech-grid">
+        <div class="card">
+            <h3>💻 Frontend</h3>
+            <p>HTML, CSS, JavaScript, React, React Native</p>
+        </div>
 
----
+        <div class="card">
+            <h3>⚙️ Backend</h3>
+            <p>Node.js, Express, PostgreSQL, Prisma</p>
+        </div>
 
-## 📊 GitHub Stats
+        <div class="card">
+            <h3>🧰 Tools</h3>
+            <p>Git, GitHub, Docker, VS Code, Postman</p>
+        </div>
+    </div>
+</section>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Devilkin09&show_icons=true&theme=tokyonight)
+<section>
+    <h2>📱 Featured Projects</h2>
 
----
+    <div class="card">
+        <h3>🎓 University Non-Educational Activities Mobile System</h3>
+        <p>Mobile system for managing scholarships, festivals, student events, and activity calendars.</p>
+        <strong>Tech:</strong> React Native, Node.js, PostgreSQL
+    </div>
 
-## 📫 Connect With Me
-- 📧 Email: your-email@gmail.com
-- 💼 LinkedIn: (add link)
-- 🌐 Portfolio: (add link if you create one)
+    <br>
 
----
+    <div class="card">
+        <h3>📅 School Calendar System</h3>
+        <p>Web-based calendar system for school activities.</p>
+        <strong>Tech:</strong> React, Node.js, Docker, PostgreSQL
+    </div>
 
-⭐️ From [Devilkin09](https://github.com/Devilkin09)
+    <br>
+
+    <div class="card">
+        <h3>🎮 2D Tank Game (Java)</h3>
+        <p>Simple 2D shooting game built with Java using OOP principles.</p>
+        <strong>Tech:</strong> Java
+    </div>
+
+</section>
+
+<section>
+    <h2>📫 Contact</h2>
+    <p>Email: your-email@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/Devilkin09" target="_blank">Devilkin09</a></p>
+</section>
+
+<footer>
+    ⭐ From Devilkin09
+</footer>
+
+</body>
+</html>
